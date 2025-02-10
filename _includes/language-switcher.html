@@ -1,0 +1,14 @@
+<div class="lang-dropdown">
+  <button class="lang-dropbtn">{{ site.active_lang | upcase }} ▾</button>
+  <div class="lang-dropdown-content">
+    {% for lang in site.languages %}
+      {% if lang != site.active_lang %}
+        {% if lang == site.default_lang %}
+          <a href="{{ site.baseurl }}{{ page.url }}">{{ lang | upcase }}</a>
+        {% else %}
+          <a href="{{ site.baseurl }}/{{ lang }}{{ page.url }}">{{ lang | upcase }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

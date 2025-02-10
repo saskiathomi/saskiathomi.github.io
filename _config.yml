@@ -8,6 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
+languages                : ["de", "en", "fr"]
+default_lang             : "de"
+exclude_from_localization: ["javascript", "images", "css", "scripts", "favicon.ico", "assets", "images", "files"]
 title                    : "Saskia Thomi"
 title_separator          : "-"
 name                     : &name "Saskia Thomi"
@@ -157,8 +160,8 @@ include:
   - _pages
   - files
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
+  - ".sublime-project"
+  - ".sublime-workspace"
   - .asset-cache
   - .bundle
   - .github
@@ -303,6 +306,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-polyglot
   - jemoji
 
 # Mimic GitHub Pages with --safe

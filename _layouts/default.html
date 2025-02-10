@@ -5,14 +5,16 @@ layout: compress
 {% include base_path %}
 
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+<html lang="{{ site.active_lang }}">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
 
   <body>
-
+    <div class="header-wrapper">
+      {% include language-switcher.html %}
+    </div>
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 

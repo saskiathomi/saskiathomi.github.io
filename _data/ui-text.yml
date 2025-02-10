@@ -48,6 +48,47 @@ en-GB:
 en-AU:
   <<: *DEFAULT_EN
 
+# Deutsch (German)
+# -----------------
+de: &DEFAULT_DE
+  page                       : "Seite"
+  pagination_previous        : "Zurück"
+  pagination_next            : "Weiter"
+  breadcrumb_home_label      : "Startseite"
+  breadcrumb_separator       : "/"
+  toc_label                  : "Auf dieser Seite"
+  ext_link_label             : "Direkter Link"
+  less_than                  : "weniger als"
+  minute_read                : "Minuten Lesezeit"
+  share_on_label             : "Teilen auf"
+  meta_label                 :
+  tags_label                 : "Schlagwörter:"
+  categories_label           : "Kategorien:"
+  date_label                 : "Veröffentlicht:"
+  comments_label             : "Einen Kommentar hinterlassen"
+  comments_title             : "Kommentare"
+  more_label                 : "Mehr erfahren"
+  related_label              : "Das könnte Ihnen auch gefallen"
+  follow_label               : "Folgen:"
+  feed_label                 : "Feed"
+  powered_by                 : "Bereitgestellt von"
+  website_label              : "Webseite"
+  email_label                : "E-Mail"
+  recent_posts               : "Neueste Beiträge"
+  undefined_wpm              : "Undefinierter Parameter words_per_minute in _config.yml"
+  comment_form_info          : "Ihre E-Mail-Adresse wird nicht veröffentlicht. Pflichtfelder sind markiert"
+  comment_form_comment_label : "Kommentar"
+  comment_form_md_info       : "Markdown wird unterstützt."
+  comment_form_name_label    : "Name"
+  comment_form_email_label   : "E-Mail-Adresse"
+  comment_form_website_label : "Webseite (optional)"
+  comment_btn_submit         : "Kommentar absenden"
+  comment_btn_submitted      : "Abgesendet"
+  comment_success_msg        : "Danke für Ihren Kommentar! Er wird auf der Seite erscheinen, sobald er genehmigt wurde."
+  comment_error_msg          : "Entschuldigung, es gab einen Fehler bei Ihrer Übermittlung. Bitte stellen Sie sicher, dass alle Pflichtfelder ausgefüllt sind, und versuchen Sie es erneut."
+  loading_label              : "Lädt..."
+
+
 # Spanish
 # --------------
 es: &DEFAULT_ES
